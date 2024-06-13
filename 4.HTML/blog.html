@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Blog</title>
+   <link rel="stylesheet" href="styleBlog.css">
+        
+    
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="logo.png" alt="Логотип"></a>
+        <h1 >Personal Blog</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Go to the Main Page</a></li>
+            <li>
+                <label for="categories">Categories</label><br>
+                <select id="categories">
+                    <option value="not selected">Choose</option>
+                    <option value="manualTesting">Manual testing</option>
+                    <option value="networking">Networking</option>
+                    <option value="database">Database</option>
+                    <option value="htmlCss">HTML/CSS</option>
+                    <option value="java">Java</option>
+                    <option value="automationTesting">Automation testing</option>
+                </select>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+     <div class="sections">
+        <section id="manualTesting">
+             <img src="images/manual.jpg" alt="Image" style="float: left; margin-right: 20px;max-width: 250px; max-height: 250px;">
+            <h2><strong>Manual testing<strong></h2>
+                <h3><mark>Road so far</mark></h3>
+                <br>
+                <p>The beginning is always difficult. Especially in a new field of activity. But it was too late to retreat. After a while, I understand that of the entire course, although this part was difficult, it was more gentle...</p>
+                <div style="text-align: right;">
+                    <button>Read more</button>
+                </div>
+            </section>
+
+
+            <section id="networking">
+                 <img src="images/networking.jpg" alt="Image" style="float: left; margin-right: 20px;max-width: 150px; max-height: 150px;">
+               <h2><strong>Networking<strong></h2>
+                <h3><mark>Adventure continue</mark></h3>
+                <br>
+                <p>Api, Postman, DevTools -well, so many unknown words, so much time and nerves...</p>
+                <div style="text-align: right;">
+                    <button>Read more</button>
+                </div>
+            </section>
+
+            <section id="database">
+                 <img src="images/postgresql.png" alt="Image" style="float: left; margin-right: 20px;max-width: 200px; max-height: 200px;">
+               <h2 style="text-align: center"><strong>Database<strong></h2>
+                <h3><mark>Not good for me</mark></h3>
+                <br>
+                <p>It is important to say - I need this tool in my future project (Hello MedEng and MedLat), but the first big problems began with Database...</p>
+                <div style="text-align: right;">
+                    <button>Read more</button>
+                </div>
+            </section>
+
+            <section id="HTML/CSS">
+                 <img src="images/html.jpg" alt="Image" style="float: left; margin-right: 20px;max-width: 250px; max-height: 250px;">
+             <h2><strong>HTML/CSS<strong></h2>
+                <h3><mark>Desigh like a master of webdesigh</mark></h3>
+                <br>
+                <p>I have never been so cool in desigh of anything -and you can see it in this project (I hope so), but skills that I gained help me in my work.The first page of this site is used by teachers of English language in my region. Well, let me be proud of myself)))... </p>
+                <div style="text-align: right;">
+                    <button>Read more</button>
+                </div>
+            </section>
+
+            <section id="java">
+                 <img src="images/java.jpeg" alt="Image" style="float: left; margin-right: 20px;max-width: 250px; max-height: 250px;">
+
+             <h2><strong>JAVA<strong></h2>
+                <h3><mark>Wanna be QA ?- study when you sleep, study when you eat, study when you have a rest, study when you work</mark></h3>
+                <br>
+                <p>It is hard to study when you are a beginer. And it is harder, when you have no any skills in a field that you try to learn.What can you do if your rural school had only 2 or 3 very old PCs? Well -you have a teacher, you have books, internet guides, youTube at least.Just Keep moving forward and never forget to break loops.One night I forgot to do it and my wife started to get bigger and bigger... </p>
+                <div style="text-align: right;">
+                    <button>Read more</button>
+                </div>
+            </section>
+
+            <section id="automationTesting">
+                 <img src="images/automation.jpg" alt="Image" style="float: left; margin-right: 20px;max-width: 250px; max-height: 250px;">
+
+                <h2><strong>Automation testing<strong></h2>
+                    <h3><mark>How do they do it?</mark></h3>
+                    <br>
+                    <p>Add previous advices to this stage and multiply it 10...no, 100 times because    IT`S A KIND OF MAGIC (sing with Freddie). May be, just may be sometime I can do it, but now -well, my hairs became too grey... </p>
+                    <div style="text-align: right;">
+                        <button>Read more</button>
+                    </div>
+                </section>
+            </div>
+
+            <aside class="categories">
+                <h2>Categories:</h2>
+                <ul style="text-align: left; color: black; font-size: 15px; list-style-type: none;">
+                    <li>Manual testing</li>
+                    <li>Networking</li>   
+                    <li>Database</li>
+                    <li>HTML/CSS</li>
+                    <li>Java</li>
+                    <li>Automation testing</li>
+                </ul>
+                <div style="margin-top: 20px;">
+                    <input type="text" placeholder="Поиск..." style="padding: 8px; width: 100%; box-sizing: border-box;">
+                </div>
+            </aside>
+
+            <aside class="categories">
+                <h2>You can leave your comments here</h2>
+                <ul style="text-align: left; color: black; font-size: 15px; list-style-type: none;">
+
+                    <form>
+                        <label for="login">Login:</label><br>
+                        <input type="text" id="login" name="login"><br>
+                        <label for="password">Password:</label><br>
+                        <input type="password" id="password" name="password"><br>
+                        <label for="comment">Comment:</label><br>
+                        <textarea id="comment" name="comment" rows="4" style="width: 100%;"></textarea><br>
+                        <input type="submit" value="Send"  style="padding: 10px 20px; background-color: #4682B4; color: #fff; border: none; border-radius: 5px; cursor: pointer;">
+                    </form>
+                </aside>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>It is never too late to study!!!</p>
+        </footer>
+    </body>
+    </html>

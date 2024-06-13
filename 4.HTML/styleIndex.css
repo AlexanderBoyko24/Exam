@@ -1,0 +1,130 @@
+
+				body {
+			display: grid;
+			grid-template-areas:
+			"header header header"
+			"search search search"
+			"nav section aside"
+			"footer footer footer";
+			grid-template-columns: 1fr 3fr 1fr;
+			grid-template-rows: auto auto 1fr auto;
+			height: 100vh;
+			margin: 0;
+			background-color: #F0F8FF;
+		}
+
+
+		header1 {
+			grid-area: header;
+			background-color: #4682B4;
+			padding: 2px; 
+			border-radius: 20px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 0 20px;
+		}
+
+		header1 img {
+			height: 50px;
+			margin-right: 20px;
+		}
+		.search {
+			grid-area: search;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding: 10px;
+			background-color: #E6E6FA;
+			border-radius: 20px;
+		}
+
+		.search input[type="text"] {
+			width: 80%;
+			padding: 10px;
+			border-radius: 20px;
+			border: 1px solid #ccc;
+			font-size: 16px;
+		}
+
+		header {
+			grid-area: header;
+			background-color: #4682B4;
+			padding: 2px; 
+			text-align: center;
+			font-size: 15px;
+			color: white; 
+			border-radius: 20px;
+		}
+
+		nav {
+			grid-area: nav;
+			background-color: #E6E6FA;
+			padding: 10px;
+		}
+
+		section {
+			grid-area: section;
+			background-color: #E6E6FA;
+			padding: 10px;
+		}
+
+		aside {
+			grid-area: aside;
+			background-color: #B0C4DE;
+			padding: 10px;
+		}
+
+		mainfooter {
+			grid-area: footer;
+			background-color: #4682B4;
+			padding: 1px; 
+			text-align: center;
+			font-size: 12px;
+			border-radius: 20px;
+		}
+
+		article {
+			background-color: #fff;
+			margin: 10px;
+			padding: 10px;
+			border-radius: 10px;
+		}
+
+		article header, article footer {
+			background-color: #B0E0E6;
+			padding: 10px;
+			border-radius: 20px;
+		}
+
+		h1{
+			color: black;  
+			font-size: 30px;
+			margin: 0;
+		}
+
+		h2{
+			color: black;
+		}
+
+		h3{
+			text-align: center;
+			color: black; 
+			font-size: 30px;
+		}	
+
+		ul1{
+			font-size: 20px;
+			list-style-type: none;
+		}
+
+		ul{
+			color: black;
+		}
+
+		p{
+			text-align: center;
+			color: black;
+			font-size: 20px
+		}
+		
